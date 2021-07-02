@@ -1,0 +1,2 @@
+ENV["LDAP_SEARCH_TIMEOUT"] = "localhost"
+ENV["PG_TIMEOUT"] = "8080"

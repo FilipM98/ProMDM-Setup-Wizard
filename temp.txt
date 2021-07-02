@@ -1,0 +1,129 @@
+# proxy for GCM
+#ENV['GCM_PROXY_HOST'] = "/"
+#ENV['GCM_PROXY_PORT'] = "/"
+
+# proxy for WNS
+# ENV['WNS_PROXY_HOST'] = "/"
+# ENV['WNS_PROXY_PORT'] = "/"
+
+# SOCKS5 proxy for APNS
+# implemantation with SOCKS proxifier: socks_proxifier
+# SOCKS5 proxy syntax: proxy_syntax
+# ENV['APNS_PROXY_URL'] = "/"
+
+# APNS http proxy
+#ENV["APNS_PROXY_URL"] = "/"
+#ENV["APNS_PROXY_PORT"] = "/"
+
+ENV["LDAP_SEARCH_TIMEOUT"] = "/"
+ENV["PG_TIMEOUT"] = "/"
+
+ENV["DEFAULT_LOCALE"] = "/"
+
+ENV["VIRUSTOTAL_ENABLED"] = "/"
+
+ENV["APNS_VERSION"] = "/"
+
+ENV["USER_MANAGEMENT"] = "/"
+ENV["SHOW_ADE_LINK"] = "/"
+
+ENV["AUTHENTICATOR_ENABLED"] = "/"
+
+ENV['SESSION_TIMEOUT_MINUTES'] = "/"
+
+# ENV['LOG_PATH'] = "/"
+
+ENV["SERVER_URL"] = "/"
+ENV["TITLE"] = "/"
+
+# ENV['AUTH_LDAP_DOMAIN'] = "/"
+
+#ENV["PLIST_DISPLAY"] = "/"
+#ENV["PLIST_DEVICE"] = "/"
+
+#ENV['SLACK_CHANNEL'] = "/"
+#ENV["SLACK_WEBHOOK_URL"] = "/"
+# novi:
+# ENV["SLACK_WEBHOOK_URL"] = "/"
+
+ENV["BUGSNAG_API_KEY"] = "/"
+
+
+
+# ENV["MAILER_USER"] = "/"
+# ENV["MAILER_PASS"] = "/"
+
+ENV["RAILS_ENV"] = "/"
+ENV["SECRET_KEY_BASE"] = "/"
+
+ENV["UPLOAD_PATH"] = "/"
+
+
+ENV["TESTING"] = "/"
+ENV["ANONYMOUS_DEVICE_ENROLL"] = "/"
+
+ENV["SUPER_ADMIN_IDS"] = "/"
+
+ENV["ADMIN_GROUP"] = "/"
+#ENV["TECH_GROUP"] = "/"
+#ENV["USER_GROUP"] = "/"
+ENV["ADMIN_AFTER_LOGIN"] = "/"
+
+
+# ENV["ROAMING_LOGIN"] = "/"
+# ENV["ROAMING_AUDIT"] = "/"
+#ENV["ROAMING_LOGIN_USERNAME"] = "/"
+#ENV["ROAMING_LOGIN_PASSWORD"] = "/"
+
+#ENV['ROAMING_AUDIT_USERNAME'] = "/"
+#ENV['ROAMING_AUDIT_PASSWORD'] = "/"
+
+ENV["AUTH_QR"] = "auth_qr"
+#ENV["WP_AUTHENTICATOR" value="ProMDM.Authenticator_zg69reawqx54p"
+
+ENV["GCM_API_KEY"] = "gcm_api_key"
+ENV['GMAPS_KEY'] = "gmaps_key"
+#novi GMAPS KEY:
+#ENV["GMAPS_KEY"] = "novi_gmaps_key"
+
+#ENV['WNS_CLIENT_ID'] = "wns_client_id"
+#ENV['WNS_CLIENT_SECRET'] = "wns_client_secret"
+
+ENV["GCM_OPEN_TIMEOUT"] = "gcm_open_timeout" # seconds
+ENV["GCM_READ_TIMEOUT"] = "gcm_read_timeout"
+ENV["GCM_SSL_TIMEOUT"]  = "gcm_ssl_timeout"
+ENV["APNS_SSL_TIMEOUT"] = "apns_ssl_timeout"
+
+ENV["APPLE_DEP_ENABLED"] = "apple_dep_enabled"
+ENV["APPLE_VPP_ENABLED"] = "apple_vpp_enabled"
+
+# AppleDEPClient
+#ENV["CONSUMER_KEY"]        = "consumer_key"
+#ENV["CONSUMER_SECRET"]     = "consumer_secret"
+#ENV["ACCESS_TOKEN"]        = "access_token"
+#ENV["ACCESS_SECRET"]       = "access_secret"
+#ENV["ACCESS_TOKEN_EXPIRY"] = "access_token_expiry"
+
+ENV["DEFAULT_IDP_NAME"] = "default_idp_name"
+
+#ENV['FORK_HOME_DOMAIN'] = "fork_home_domain"
+
+
+ENV["LDAP_DISPLAY"]        = "ldap_display"
+ENV["LDAP_HOST"]           = "ldap_host"
+ENV["LDAP_PORT"]           = "ldap_port"
+ENV["LDAP_BASE"]           = "ldap_base"
+ENV["LDAP_ENCRYPTION"]     = "ldap_encryption"
+ENV["LDAP_ADMIN_USER"]     = "ldap_admin_user"
+ENV["LDAP_ADMIN_PASSWORD"] = "ldap_admin_password"
+
+
+# v2 legacy settings
+#ENV["DEFAULT_ORG_UUID"] = "default_org_uuid"
+#ENV["UNSIGNED_MDM_MESSAGES"]   = "unsigned_mdm_messages"
+#ENV["ANONYMOUS_DEVICE_ENROLL"] = "anonymous_device_enroll"
+#ENV["ANONYMOUS_FILE_SNITCH"]   = "anonymous_file_snitch"
+#ENV["FILE_SNITCH"] = "file_snitch"
+
+
+ENV["LOG_LEVEL"] = "log_level"
